@@ -57,6 +57,18 @@ export function initItemsList() {
             }
             this?.appendChild(div);
 
+            
+            // list.map((item) => {
+            //     const checkBox = div.querySelectorAll(".checkbox");
+            //     console.log(checkBox[item]);
+                
+            //     const itemText = div.querySelectorAll(".itemText");
+            //     console.log(itemText[item]);
+                
+            //     if (checkBox[item]?.checked){
+            //         item.style.textDecorationLine = "line-through";
+            //     }
+            // })
         }
     }
     customElements.define('items-list', ItemsList);
